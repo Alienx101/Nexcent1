@@ -1,0 +1,98 @@
+.hero{
+    .section2{
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid orange;
+    width: 100%px;
+    height: 500px;
+    background-color:#F5F7FA;
+    ;
+    /* padding: 144px; */
+    /* gap: 104px; */
+    img{
+        height: 360px;
+        width: 330px;
+        border: 1px solid black;
+        margin-top: 60px;
+        margin-left: 35px;
+    }
+    h1{
+        border: 1px solid purple;
+        font-size: 64px;
+        width: 720px;
+        font-weight: 600;
+        margin-top: 90px;
+        margin-left: 120px;
+        /* height: 50px; */
+    }
+    p{
+        border: 1px dashed black;
+        font-size: 15px;
+        margin-left: 120px;
+        margin-top: 15px;
+        
+    }
+    span{
+         color: #4CAF4F;
+    }
+    .btn3{
+        border: 1px solid yellow;
+        width: 120px;
+        height: 50px;
+        background-color: #4CAF4F;
+        color: white;
+        border-radius: 5px;
+        margin-left: 120px;
+        margin-top: 15px;
+    }
+    .dot-box{
+        display: flex;
+        /* justify-content: flex-start; */
+        align-items: flex-end;
+        /* margin-left: -800; */
+        .dot{
+            height: 10px;
+            /* border: 1px solid red; */
+            width: 56px;
+            /* align-self: center; */
+            /* justify-self: center; */
+            descent-override: ;
+        }      
+    }
+}
+
+
+
+
+
+
+
+
+.hero {
+    display: flex;                       /* Use flexbox for the hero */
+    justify-content: space-between;      /* Space between items */
+    align-items: center;                 /* Center items vertically */
+    height: 100vh;                       /* Full height of the viewport */
+    background-color: #f0f0f0;           /* Optional background color */
+}
+
+.section2 {
+    display: flex;                       /* Use flexbox for section */
+    flex-direction: row;                 /* Align children in a row */
+    justify-content: space-between;      /* Space between text and image */
+    width: 100%;                        /* Full width of the section */
+    align-items: center;                 /* Center items vertically */
+}
+
+.section2-text {
+    flex: 1;                             /* Allow text to take available space */
+}
+
+.section2 > div {
+    margin-left: auto;                   /* Push the image to the right */
+}
+
+img {
+    max-width: 100%;                     /* Ensure the image is responsive */
+    height: auto;                        /* Maintain aspect ratio */
+}
